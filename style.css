@@ -1,0 +1,87 @@
+.bg1 {
+	background-attachment: fixed;
+	background-color: #09C;
+	float: left;
+	width: 100%;
+	animation: bganimado 320s infinite;
+	height: 600px;
+}
+@keyframes bganimado {
+	0% {
+	background-position: 20000px;
+	}
+	100% {
+	background-position: left;
+	}
+}
+
+
+.bg2 {
+	background-attachment: fixed;
+	background-image: url(images/clouds1.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	float: left;
+	width: 100%;
+	animation: bganimado2 250s infinite;
+	height: 600px;
+}
+@keyframes bganimado2 {
+	0% {
+	background-position: 20000px;
+	}
+	100% {
+	background-position: left;
+	}
+}
+
+
+.bg3 {
+	background-attachment: fixed;
+	background-image: url(images/clouds2.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	float: left;
+	width: 100%;
+	animation: bganimado2 160s infinite;
+	height: 600px;
+}
+@keyframes bganimado3 {
+	0% {
+	background-position: 20000px;
+	}
+	100% {
+	background-position: left;
+	}
+}
+
+
+
+.personagem {
+	float: left;
+	width: 100%;
+	height: 320px;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center center;
+	animation: mudancaicon 0.1s infinite;
+	margin-right: 0%;
+	margin-left: 0%;
+}
+@keyframes mudancaicon {
+    0%		{background-image: url(images/boy1.png);}
+    50%		{background-image: url(images/boy2.png);}
+    100%	{background-image: url(images/boy1.png);}
+}
+
+.flutuar {
+	float: left;
+	width: 100%;
+	animation: flutuar 3s infinite;
+	margin-top: 8%;
+}
+@keyframes flutuar {
+    0%		{margin-top: 8%;}
+    50%		{margin-top: 12%;}
+    100%	{margin-top: 8%;}
+}
